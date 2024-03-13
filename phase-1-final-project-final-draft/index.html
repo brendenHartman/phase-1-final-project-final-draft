@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coin Catalog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="reset-alert" class="hidden">
+        <h1>Are you sure you'd like to reset?</h1>
+        <input id="yes" type="button" value="Continue">
+        <input id="no" type="button" Value="Cancel">
+    </div>
+    <div id="header-container">
+        <h4>A S.P.A By: Brenden Hartman</h4>
+        <img src="https://cdn.discordapp.com/attachments/755627416025825390/1211523775527649320/download.png?ex=6600f771&is=65ee8271&hm=b17ca2a79bb0575141c6706e2fddd9006cb3a7f5aebe242d3ca2660c3e7cb379&">
+        <input id="reset-button" type="button" value="Reset">
+        <input id="sort-button" type="button" value="Sort">
+    </div>
+    <div id="sort-bar">
+        <input id="sort-change-button" type="button" value="By Increase">
+        <input id="sort-value-button" type="button" value="By Value">
+        <input id="sort-abc-button" type="button" value="By Alphabet">
+        <input id="sort-hide-button" type="button" value="^">
+    </div>
+    <div id="start-screen">
+        <h1>Choose How Many Cryptocurrencies To Load</h1>
+        <input type="number" max="100" id="number-input" placeholder="(1-100)">
+        <input type="button" value="Create" id="load-submit">
+        <input type="button" value="undo" id="undo-button" class="hidden">
+    </div>
+    <div id="card-container">
+    </div>
+    <script src="index.js"></script>
+</body>
